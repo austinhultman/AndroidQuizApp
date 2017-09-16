@@ -3,4 +3,6 @@
     <string name="question_text">Austins favorite food is pizza.</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
+    <string name="correct_toast">Correct, great job!</string>
+    <string name="incorrect_toast">Incorrect, terrible!</string>
 </resources>
