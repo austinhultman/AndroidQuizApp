@@ -56,8 +56,13 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 mCurrentIndex=(mCurrentIndex+1)%mQuestionBank.length;
-                //int question = mQuestionBank[mCurrentIndex].getTextResId();
-                //mQuestionTextView.setText(question);
+                updateQuestion();
+            }
+        });
+        mQuestionTextView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mCurrentIndex=(mCurrentIndex+1)%mQuestionBank.length;
                 updateQuestion();
             }
         });

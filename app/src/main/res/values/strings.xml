@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">GeoQuiz</string>
+    <string name="app_name">The Austin Quiz</string>
     <string name="question_food">Austin\'s favorite food is Steak.</string>
     <string name="question_car">Austin\'s car is Orange.</string>
     <string name="question_video_games">Austin\'s favorite game is Fallout 4.</string>
