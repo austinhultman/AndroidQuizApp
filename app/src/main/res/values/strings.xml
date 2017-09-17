@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_text">Austins favorite food is pizza.</string>
+    <string name="question_food">Austin\'s favorite food is Steak.</string>
+    <string name="question_car">Austin\'s car is Orange.</string>
+    <string name="question_video_games">Austin\'s favorite game is Fallout 4.</string>
+    <string name="question_Dog">Austin\'s preferred animal is a Dog.</string>
+    <string name="question_computer">Austin built his own gaming rig.</string>
+    <string name="question_fishing">Austin\'s favorite hobby is fishing</string>
+    <string name="next_button">Next</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="correct_toast">Correct, great job!</string>
