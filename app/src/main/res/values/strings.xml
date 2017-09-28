@@ -11,4 +11,6 @@
     <string name="false_button">False</string>
     <string name="correct_toast">Correct, great job!</string>
     <string name="incorrect_toast">Incorrect, terrible!</string>
+    <string name="next_question">Next Question</string>
+    <string name="prev_question">Previous Question</string>
 </resources>
