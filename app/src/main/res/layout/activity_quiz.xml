@@ -6,7 +6,12 @@
     android:gravity="center"
     android:orientation="vertical">
 
-
+    <TextView
+        android:id="@+id/score_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        />
     <TextView
         android:id="@+id/question_text_view"
         android:layout_width="wrap_content"
@@ -39,20 +44,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
-    <ImageButton
+        <ImageButton
         android:id="@+id/prev_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/arrow_left"
         android:contentDescription="@string/next_question"
         />
-    <ImageButton
+
+        <Button
+            android:id="@+id/ViewScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="View Score"/>
+
+        <ImageButton
+            android:id="@+id/Text2Speech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icons8_play_48"/>
+
+        <ImageButton
         android:id="@+id/next_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/arrow_right"
         android:contentDescription="@string/prev_question"
+
         />
+        <Button
+            android:id="@+id/ResetQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Reset Quiz"/>
 
     </LinearLayout>
 
